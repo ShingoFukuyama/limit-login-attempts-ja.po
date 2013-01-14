@@ -8,7 +8,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2013-01-15 02:21+0900\n"
+"PO-Revision-Date: 2013-01-15 02:58+0900\n"
 "Last-Translator: Shingo Fukuyama <foko888@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
@@ -263,7 +263,7 @@ msgstr ""
 
 #. Description of the plugin/theme
 msgid "Limit rate of login attempts, including by way of cookies, for each IP."
-msgstr ""
+msgstr "IPごとにログイン回数を制限、cookieも使用可能"
 
 #. Author of the plugin/theme
 msgid "Johan Eenfeldt"
