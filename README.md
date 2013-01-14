@@ -1,4 +1,5 @@
 limit-login-attempts-ja.po
 ==========================
 
-日本語訳作ってみました。
+「Limit Login Attempts」日本語訳作ってみました。
+間違いがありましたらお知らせください。

@@ -1,0 +1,274 @@
+# Copyright (C) 2012 Limit Login Attempts
+# This file is distributed under the same license as the Limit Login Attempts package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Limit Login Attempts 1.7.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/limit-login-attempts\n"
+"POT-Creation-Date: 2012-05-20 10:43:32+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2013-01-15 02:21+0900\n"
+"Last-Translator: Shingo Fukuyama <foko888@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
+"Language: Japanese\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: limit-login-attempts.php:522
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] "%d時間"
+msgstr[1] "%d時間"
+
+#: limit-login-attempts.php:528
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] "%d分間"
+msgstr[1] "%d分間"
+
+#: limit-login-attempts.php:534
+msgid "[%s] Failed login attempts from whitelisted IP"
+msgstr "[%s] IP許可リストによりログインに失敗しました"
+
+#: limit-login-attempts.php:538
+msgid "[%s] Too many failed login attempts"
+msgstr "[%s] ログイン失敗回数が一定数になりました。"
+
+#: limit-login-attempts.php:543
+msgid "%d failed login attempts (%d lockout(s)) from IP: %s"
+msgstr "%d回ログインに失敗しました(%d回ロック済み) IP: %s"
+
+#: limit-login-attempts.php:547
+msgid "Last user attempted: %s"
+msgstr "最後にログインを試みたユーザー名: %s"
+
+#: limit-login-attempts.php:551
+msgid "IP was NOT blocked because of external whitelist."
+msgstr "外部の許可リストによりIPはブロックされていません。"
+
+#: limit-login-attempts.php:553
+msgid "IP was blocked for %s"
+msgstr "%sIPがブロックされています"
+
+#: limit-login-attempts.php:615
+msgid "<strong>ERROR</strong>: Too many failed login attempts."
+msgstr "<strong>エラー</strong>: ログイン失敗回数が一定数になりました。"
+
+#: limit-login-attempts.php:619
+msgid "Please try again later."
+msgstr "時間をおいて再度ログインを試みてください。"
+
+#: limit-login-attempts.php:626
+msgid "Please try again in %d hour."
+msgid_plural "Please try again in %d hours."
+msgstr[0] "%d 時間後に再度ログインを試みてください。"
+msgstr[1] "%d 時間後に再度ログインを試みてください。"
+
+#: limit-login-attempts.php:628
+msgid "Please try again in %d minute."
+msgid_plural "Please try again in %d minutes."
+msgstr[0] "%d 分後に再度ログインを試みてください。"
+msgstr[1] "%d 分後に再度ログインを試みてください。"
+
+#: limit-login-attempts.php:657
+msgid "<strong>%d</strong> attempt remaining."
+msgid_plural "<strong>%d</strong> attempts remaining."
+msgstr[0] "残り<strong>%d</strong>回まで間違えることができます。"
+msgstr[1] "残り <strong>%d</strong> 回まで間違えることができます。"
+
+#: limit-login-attempts.php:728
+msgid "<strong>ERROR</strong>: Incorrect username or password."
+msgstr ""
+"<strong>エラー</strong>: ユーザー名またはパスワードが正しくありません。"
+
+#: limit-login-attempts.php:896
+msgctxt "Internet address"
+msgid "IP"
+msgstr ""
+
+#: limit-login-attempts.php:896
+msgid "Tried to log in as"
+msgstr "使用されたユーザ名"
+
+#: limit-login-attempts.php:901
+msgid "%d lockout"
+msgid_plural "%d lockouts"
+msgstr[0] "%d回ロック"
+msgstr[1] "%d回ロック"
+
+#: limit-login-attempts.php:930
+msgid "Cleared IP log"
+msgstr "作成されたIPログ"
+
+#: limit-login-attempts.php:938
+msgid "Reset lockout count"
+msgstr "ロック回数をリセット"
+
+#: limit-login-attempts.php:946
+msgid "Cleared current lockouts"
+msgstr "削除された現在のロック"
+
+#: limit-login-attempts.php:975
+msgid "Options changed"
+msgstr "オプションを変更しました"
+
+#: limit-login-attempts.php:993
+msgid "It appears the site is reached directly (from your IP: %s)"
+msgstr "(あなたのIP: %sから)直接サイトに到達したようです"
+
+#: limit-login-attempts.php:995
+msgid ""
+"It appears the site is reached through a proxy server (proxy IP: %s, your "
+"IP: %s)"
+msgstr ""
+"プロキシサーバー(proxy IP: %s, あなたのIP: %s)を通してサイトに到達したようで"
+"す"
+
+#: limit-login-attempts.php:1003
+msgid ""
+"<strong>Current setting appears to be invalid</strong>. Please make sure it "
+"is correct. Further information can be found <a href=\"%s\" title=\"FAQ"
+"\">here</a>"
+msgstr ""
+"<strong>現在の設定は無効のようです。</strong> 正しいか確認してください。詳細"
+"情報は<a href=\"%s\" title=\"FAQ\">こちら</a>を参照ください。"
+
+#: limit-login-attempts.php:1011
+msgid "Limit Login Attempts Settings"
+msgstr "Limit Login Attempts 設定"
+
+#: limit-login-attempts.php:1012
+msgid "Statistics"
+msgstr "統計"
+
+#: limit-login-attempts.php:1017
+msgid "Total lockouts"
+msgstr "総ロック数"
+
+#: limit-login-attempts.php:1020
+msgid "Reset Counter"
+msgstr "カウントをリセットする"
+
+#: limit-login-attempts.php:1021
+msgid "%d lockout since last reset"
+msgid_plural "%d lockouts since last reset"
+msgstr[0] "最後のリセットから%d回ロック"
+msgstr[1] "最後のリセットから %d回ロック"
+
+#: limit-login-attempts.php:1022
+msgid "No lockouts yet"
+msgstr "ロックはまだありません"
+
+#: limit-login-attempts.php:1027
+msgid "Active lockouts"
+msgstr "ロック中"
+
+#: limit-login-attempts.php:1029
+msgid "Restore Lockouts"
+msgstr "ロックを解除する"
+
+#: limit-login-attempts.php:1030
+msgid "%d IP is currently blocked from trying to log in"
+msgstr "%d個のIPは現在ログインをブロックされています"
+
+#: limit-login-attempts.php:1036
+msgid "Options"
+msgstr "オプション"
+
+#: limit-login-attempts.php:1041
+msgid "Lockout"
+msgstr "ロック"
+
+#: limit-login-attempts.php:1043
+msgid "allowed retries"
+msgstr "回までリトライを許可する"
+
+#: limit-login-attempts.php:1044
+msgid "minutes lockout"
+msgstr "分間ロックする"
+
+#: limit-login-attempts.php:1045
+msgid "lockouts increase lockout time to"
+msgstr "回ロックされると"
+
+#: limit-login-attempts.php:1045
+msgid "hours"
+msgstr "時間ロックする"
+
+#: limit-login-attempts.php:1046
+msgid "hours until retries are reset"
+msgstr "時間でリトライ数をリセットする"
+
+#: limit-login-attempts.php:1050
+msgid "Site connection"
+msgstr "サイト接続"
+
+#: limit-login-attempts.php:1056
+msgid "Direct connection"
+msgstr "ダイレクト接続"
+
+#: limit-login-attempts.php:1061
+msgid "From behind a reversy proxy"
+msgstr "リバースプロキシで接続"
+
+#: limit-login-attempts.php:1067
+msgid "Handle cookie login"
+msgstr "ログインをクッキーで処理"
+
+#: limit-login-attempts.php:1069
+msgid "Yes"
+msgstr ""
+
+#: limit-login-attempts.php:1069
+msgid "No"
+msgstr ""
+
+#: limit-login-attempts.php:1073
+msgid "Notify on lockout"
+msgstr "ロック通知"
+
+#: limit-login-attempts.php:1075
+msgid "Log IP"
+msgstr "IPログに書き込み"
+
+#: limit-login-attempts.php:1076
+msgid "Email to admin after"
+msgstr "管理者のメールに通知 ("
+
+#: limit-login-attempts.php:1076
+msgid "lockouts"
+msgstr "回のロックで)"
+
+#: limit-login-attempts.php:1081
+msgid "Change Options"
+msgstr "設定を変更"
+
+#: limit-login-attempts.php:1089
+msgid "Lockout log"
+msgstr "ロックのログ"
+
+#: limit-login-attempts.php:1094
+msgid "Clear Log"
+msgstr "ログを削除"
+
+#. Plugin Name of the plugin/theme
+msgid "Limit Login Attempts"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://devel.kostdoktorn.se/limit-login-attempts"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Limit rate of login attempts, including by way of cookies, for each IP."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Johan Eenfeldt"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://devel.kostdoktorn.se"
+msgstr ""
